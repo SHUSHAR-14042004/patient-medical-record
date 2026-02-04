@@ -1,0 +1,32 @@
+export const medicalRecords = [
+  {
+    id: 1,
+    date: "2025-01-10",
+    hospital: "City Hospital",
+    type: "Blood Test",
+    encrypted: true,
+    format: "JSON",
+    accessGranted: false,
+    expiresAt: null,
+  },
+  {
+    id: 2,
+    date: "2025-03-05",
+    hospital: "GreenCare Clinic",
+    type: "X-Ray",
+    encrypted: true,
+    format: "XML",
+    accessGranted: true,
+    expiresAt: "2026-02-04T11:00",
+  },
+  {
+    id: 3,
+    date: "2024-12-18",
+    hospital: "Metro Health",
+    type: "Prescription",
+    encrypted: true,
+    format: "CSV",
+    accessGranted: false,
+    expiresAt: null,
+  },
+];

@@ -1,0 +1,114 @@
+/* Global Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* App Base */
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background-color: #f4f7fb;
+  color: #333;
+}
+
+/* Container */
+.app-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Headings */
+h1 {
+  color: #0b3c5d;
+  margin-bottom: 10px;
+}
+
+h2, h3 {
+  color: #1f5f8b;
+  margin-bottom: 10px;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+nav button {
+  background-color: #1f5f8b;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #174a6a;
+}
+
+/* Cards */
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+}
+
+.primary-btn {
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+.primary-btn:hover {
+  background-color: #256f46;
+}
+
+.danger-btn {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+}
+
+.danger-btn:hover {
+  background-color: #c9302c;
+}
+
+/* Status Badges */
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+.badge-green {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.badge-red {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Emergency Box */
+.emergency-box {
+  border: 2px solid #d9534f;
+  background-color: #fff5f5;
+}
